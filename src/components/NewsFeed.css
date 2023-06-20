@@ -1,0 +1,32 @@
+/* newsfeed.css */
+
+.newsfeed-div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .newsfeed-div-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .newsfeed-div-li {
+    margin-bottom: 20px;
+    text-align: center; /* Align the list item text to center */
+  }
+  
+  .newsfeed-div-li:not(:last-child) {
+    margin-bottom: 40px; /* Add a larger gap between two lists */
+  }
+  
+  .newsfeed-div-h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .newsfeed-div-p {
+    font-size: 14px;
+    color: #555;
+  }
+  
